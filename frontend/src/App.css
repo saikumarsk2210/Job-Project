@@ -2,12 +2,14 @@
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #e6f7ff; /* Light blue background */
+  background: linear-gradient(to bottom, #e0b0ff, #b19cd9); /* Purple gradient background */
+  min-height: 100vh; /* Ensure full height */
+  color: #4a148c; /* Dark purple text */
 }
 
 .navbar {
-  background-color: #ffffff; /* White navbar */
-  color: #003a80; /* Dark blue text */
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white navbar */
+  color: #4a148c; /* Dark purple text */
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
@@ -18,7 +20,7 @@
 .logo {
   font-size: 2em; /* Larger logo */
   font-weight: bold;
-  color: #007bff; /* Primary blue color */
+  color: #6a1b9a; /* Medium purple color */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
 }
 
@@ -28,14 +30,14 @@
 }
 
 .nav-links a {
-  color: #003a80; /* Dark blue text */
+  color: #4a148c; /* Dark purple text */
   text-decoration: none;
   font-size: 1.1em; /* Slightly larger font */
   transition: color 0.3s;
 }
 
 .nav-links a:hover {
-  color: #007bff; /* Primary blue color */
+  color: #6a1b9a; /* Medium purple color */
 }
 
 .auth-links {
@@ -45,27 +47,27 @@
 }
 
 .auth-links a {
-  color: #003a80; /* Dark blue text */
+  color: #4a148c; /* Dark purple text */
   text-decoration: none;
   font-size: 1.1em; /* Slightly larger font */
   transition: color 0.3s;
 }
 
 .auth-links a:hover {
-  color: #007bff; /* Primary blue color */
+  color: #6a1b9a; /* Medium purple color */
 }
 
 .auth-links button {
   background: none;
   border: none;
-  color: #003a80; /* Dark blue text */
+  color: #4a148c; /* Dark purple text */
   cursor: pointer;
   font-size: 1.1em; /* Slightly larger font */
   transition: color 0.3s;
 }
 
 .auth-links button:hover {
-  color: #007bff; /* Primary blue color */
+  color: #6a1b9a; /* Medium purple color */
 }
 
 .separator {
@@ -74,7 +76,7 @@
 
 .search-bar {
   padding: 30px;
-  background-color: #ffffff; /* White search bar */
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white search bar */
   text-align: center;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
@@ -91,10 +93,10 @@
 .search-input-container {
   display: flex;
   align-items: center;
-  background-color: #f0f8ff; /* Light blue input background */
+  background-color: rgba(224, 176, 255, 0.3); /* Light purple input background */
   border-radius: 5px;
   padding: 5px 10px;
-  border: 1px solid #a6d4fa; /* Light blue border */
+  border: 1px solid #d8b4fe; /* Light purple border */
 }
 
 .search-icon,
@@ -120,7 +122,7 @@
   background-color: transparent;
   padding: 10px;
   font-size: 1em;
-  color: #003a80; /* Dark blue text */
+  color: #4a148c; /* Dark purple text */
   width: 300px;
 }
 
@@ -130,7 +132,7 @@
 
 .search-bar button {
   padding: 12px 24px;
-  background-color: #007bff; /* Primary blue color */
+  background-color: #8e44ad; /* A nice shade of purple */
   color: white;
   border: none;
   border-radius: 5px;
@@ -140,7 +142,7 @@
 }
 
 .search-bar button:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+  background-color: #7b1fa2; /* Darker purple on hover */
 }
 
 .results-section {
@@ -148,8 +150,8 @@
 }
 
 .job-card {
-  background-color: #ffffff; /* White job card */
-  border: 1px solid #a6d4fa; /* Light blue border */
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white job card */
+  border: 1px solid #d8b4fe; /* Light purple border */
   border-radius: 5px;
   margin-bottom: 20px;
   padding: 15px;
@@ -159,12 +161,12 @@
 .job-card h3 {
   margin-top: 0;
   margin-bottom: 5px;
-  color: #007bff; /* Primary blue color */
+  color: #6a1b9a; /* Medium purple color */
 }
 
 .job-card .company {
   font-weight: bold;
-  color: #003a80; /* Dark blue text */
+  color: #4a148c; /* Dark purple text */
 }
 
 .job-card .location {
@@ -176,7 +178,7 @@
 }
 
 .job-card button {
-  background-color: #007bff; /* Primary blue color */
+  background-color: #8e44ad; /* A nice shade of purple */
   color: white;
   border: none;
   padding: 8px 12px;
@@ -186,7 +188,7 @@
 }
 
 .job-card button:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+  background-color: #7b1fa2; /* Darker purple on hover */
 }
 
 /* Sign In and Sign Up Form Styles */
@@ -194,33 +196,33 @@ form {
   max-width: 400px;
   margin: 20px auto;
   padding: 20px;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white form */
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 form h2 {
   text-align: center;
-  color: #007bff;
+  color: #6a1b9a; /* Medium purple color */
 }
 
 form label {
   display: block;
   margin-bottom: 8px;
-  color: #003a80;
+  color: #4a148c; /* Dark purple text */
 }
 
 form input {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
-  border: 1px solid #a6d4fa;
+  border: 1px solid #d8b4fe; /* Light purple border */
   border-radius: 4px;
   box-sizing: border-box;
 }
 
 form button {
-  background-color: #007bff;
+  background-color: #8e44ad; /* A nice shade of purple */
   color: white;
   padding: 10px 20px;
   border: none;
@@ -230,7 +232,7 @@ form button {
 }
 
 form button:hover {
-  background-color: #0056b3;
+  background-color: #7b1fa2; /* Darker purple on hover */
 }
 
 .error {
