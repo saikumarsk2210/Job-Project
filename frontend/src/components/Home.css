@@ -1,0 +1,120 @@
+.home-container {
+  padding: 20px;
+}
+
+.search-bar {
+  padding: 30px;
+  background-color: #ffffff; /* White search bar */
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  border-radius: 8px; /* Rounded corners */
+}
+
+.search-inputs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-input-container {
+  display: flex;
+  align-items: center;
+  background-color: #f0f8ff; /* Light blue input background */
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: 1px solid #a6d4fa; /* Light blue border */
+}
+
+.search-icon,
+.location-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  background-size: cover;
+  opacity: 0.7;
+}
+
+.search-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23666'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 003.5 9.5 6.5 6.5 0 0010 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'/%3E%3C/svg%3E");
+}
+
+.location-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23666'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z'/%3E%3C/svg%3E");
+}
+
+.search-input-container input {
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+  font-size: 1em;
+  color: #003a80; /* Dark blue text */
+  width: 300px;
+}
+
+.search-input-container input:focus {
+  outline: none;
+}
+
+.search-bar button {
+  padding: 12px 24px;
+  background-color: #007bff; /* Primary blue color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1em;
+  transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.results-section {
+  padding: 20px;
+}
+
+.job-card {
+  background-color: #ffffff; /* White job card */
+  border: 1px solid #a6d4fa; /* Light blue border */
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.job-card h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: #007bff; /* Primary blue color */
+}
+
+.job-card .company {
+  font-weight: bold;
+  color: #003a80; /* Dark blue text */
+}
+
+.job-card .location {
+  color: #666;
+}
+
+.job-card .description {
+  color: #444;
+}
+
+.job-card button {
+  background-color: #007bff; /* Primary blue color */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.job-card button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
